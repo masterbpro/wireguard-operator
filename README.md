@@ -17,9 +17,13 @@ If you are facing any problems please open an [issue](https://github.com/jodevsa
   * Not compatible with "Container-Optimized OS with containerd" node images
   * Not compatible with autopilot
 - [x] DigitalOcean Kubernetes
-  * requires `spec.serviceType: "NodePort"`. DigitalOcean LoadBalancer does not support UDP. 
+  * requires `spec.serviceType: "NodePort"`. DigitalOcean LoadBalancer does not support UDP.
 - [ ] Amazon EKS
 - [ ] Azure Kubernetes Service
+- [x] Hetzner Cloud
+  * requires `spec.serviceType: "NodePort"`. Hetzner Cloud LoadBalancer does not support UDP.
+- [x] Vultr
+- [x] Proxmox
 - [ ] ...?
 
 ## Architecture 
